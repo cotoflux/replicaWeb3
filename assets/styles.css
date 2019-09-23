@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    border: 1px solid blue;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    border: 1px solid purple;
+    background-image: url("../assets/imagenes/header.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: 0;
+    background-position-y: -120px;
+    background-position: top;
+    width: 100%;
+    
+}
+
+.containerNav{
+    line-height: 40%;
+    border: 1px solid red; 
+    
+}
+
+.containerNav--logo {
+    border: 1px solid yellow;
+    width: 4rem;
+    height: 3rem;
+}
+
+.containerNav--navegationVar{
+    height: 3rem;
+    border: 1px solid red;
+    list-style-type: none;
+    float: right;
+
+
+
+    
+}
+
+.containerNav--navegationVarLink img{
+    width: 1rem;
+    height: 1rem;    
+}
+
+.furnitureTitle{
+    width: 100%;
+    height: 300vh;
+    border: 1px solid black;
+}
+.furnitureTitle h1{
+    color: #4A4A4A;
+    font-weight: bold;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orangered;
+    margin-top: 20%;
+}
+
+
+
