@@ -4,68 +4,212 @@
 }
 
 body{
-    border: 1px solid blue;
+   
     width: 100%;
     font-family: 'Open Sans', sans-serif;
 }
 
 
 header {
-    border: 1px solid purple;
-    background-image: url("../assets/imagenes/header.jpg");
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position-x: 0;
-    background-position-y: -120px;
-    background-position: top;
+
+    display: flex;
+    width: 100%;  
+    background-color: #f3f3f3;
+
+}
+
+
+.imageNav{
+    
+
     width: 100%;
+
+
+}
+.containerNav{
+
+    width: 100%;
+    position: relative;
+
+}
+
+ol{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
     
 }
 
-.containerNav{
-    line-height: 40%;
-    border: 1px solid red; 
-    
+a {
+    text-decoration: none
 }
+
 
 .containerNav--logo {
-    border: 1px solid yellow;
-    width: 4rem;
-    height: 3rem;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+  ;
+    
 }
 
 .containerNav--navegationVar{
-    height: 3rem;
-    border: 1px solid red;
-    list-style-type: none;
+    height: 24px;
     float: right;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+   
+}
 
+.containerNav--navegationVarLink{
+    color: #B0a3a3;
+    font-weight: bold;
+}
 
+#shop{
+    color: #4a4a4a;
+}
+.containerNav--navegationVarLink img{
+    width: 15px;
+    height: 15px;    
+}
+
+.furniture {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/imagenes/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    justify-content: center;
 
     
 }
-
-.containerNav--navegationVarLink img{
-    width: 1rem;
-    height: 1rem;    
-}
-
 .furnitureTitle{
-    width: 100%;
-    height: 300vh;
-    border: 1px solid black;
+    padding-top: 150px;
 }
-.furnitureTitle h1{
-    color: #4A4A4A;
-    font-weight: bold;
+
+h1{
     font-size: 4rem;
-    font-weight: bold;
+    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 1px solid orangered;
-    margin-top: 20%;
+}
+
+/* about us */
+
+section.about_us {
+    
+    /* width: 100%; */
+    background: red;
+    max-width: 768px;
+    /* position: relative; */
+    margin: auto;
+}
+.aboutTitle {
+    font-size: 1.5rem;
+    width: 100%;
+    height: 94px;
+    color: rgb(80, 75, 75);
+    background: yellow;
+    position: relative;
+}
+.aboutTitle h3 {
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    bottom: 0px;
+    /* vertical-align: bottom; */
+}
+
+element.style {
+}
+.aboutTitle h3 {
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    bottom: 0px;
+    /* vertical-align: bottom; */
+}
+h3 {
+    /* width: 100%; */
+    /* height: 2rem; */
+    /* padding-top: 45px; */
+    /* position: absolute; */
+}
+
+.containerBox {
+    display: flex;
+}
+.firstBox.Box {
+    width: 100%;
+}
+.secondBox.Box {
+    width: 30%;
+}
+.thirdBox.Box {
+    width: 100%;
+}
+.thirdBox.Box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+h4 {
+    height: 52px;
+    padding-top: 19px;
+    background-color: violet;
 }
 
 
+.explanationAboutUs {
+    width: 35%;
+}
+h4 {
+    height: 52px;
+    padding-top: 19px;
+    background-color: violet;
+}
+.aboutTitle{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 94px;
+    color: rgb(80, 75, 75);
+    background: yellow;
+}
 
+section.about_us {
+ 
+    /* width: 100%; */
+    background: red;
+    max-width: 768px;
+    /* position: relative; */
+    margin: auto;
+/* .firstBox {
+    width:100%;
+    height: 450px;
+    width: 100%;
+    background: red;
+}
+
+.firstBox, p {
+    width: 100%;
+    height: 319px;
+    color: rgb(80, 75, 75);
+    background: lightblue;
+}
+.thirdBox {
+    width: 35%;
+    background: magenta;
+}
+.thirdBox img{
+    width: 100px;
+    height: 100px;
+}
+ */
