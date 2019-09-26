@@ -136,11 +136,42 @@ element.style {
     bottom: 0px;
     /* vertical-align: bottom; */
 }
-h3 {
-    /* width: 100%; */
-    /* height: 2rem; */
-    /* padding-top: 45px; */
-    /* position: absolute; */
+.delivery {
+    width: 150px;
+    margin: auto;
+    padding-top: 45px;
+    position: relative;
+}
+
+.delivery, img{
+        display:flex;
+        width: 60%;
+        justify-content: center;
+}
+
+.support {
+    width: 150px;
+    margin: auto;
+    padding-top: 45px;
+    position: relative;
+}
+
+.support, img{
+        display:flex;
+        width: 60%;
+        justify-content: center;
+}
+
+.montage {
+        width: 150px;
+        margin: auto;
+        padding-top: 45px;
+        position: relative;
+}
+.montage, img{
+        display:flex;
+        width: 60%;
+        justify-content: center;
 }
 
 .containerBox {
@@ -149,8 +180,9 @@ h3 {
 .firstBox.Box {
     width: 100%;
 }
-.secondBox.Box {
+secondBox.Box {
     width: 30%;
+    position: relative;
 }
 .thirdBox.Box {
     width: 100%;
@@ -191,25 +223,11 @@ section.about_us {
     max-width: 768px;
     /* position: relative; */
     margin: auto;
-/* .firstBox {
-    width:100%;
-    height: 450px;
-    width: 100%;
-    background: red;
+
 }
 
-.firstBox, p {
-    width: 100%;
-    height: 319px;
-    color: rgb(80, 75, 75);
-    background: lightblue;
+p {
+    padding-left: 2px;
+    padding-top: 10px;
 }
-.thirdBox {
-    width: 35%;
-    background: magenta;
-}
-.thirdBox img{
-    width: 100px;
-    height: 100px;
-}
- */
+
